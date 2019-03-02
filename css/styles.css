@@ -3,3 +3,16 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+div #firstplayer{
+  border-color: yellow;
+  border-width: 300px;
+  border: solid;
+  border-radius: 10px;
+  height: 300px; 
+}
+div #secondplayer{
+  border-color: yellow;
+  border-width: 300px;
+  border: solid;
+  border-radius: 10px;
+}
