@@ -19,3 +19,12 @@ div #secondplayer{
 font{
   font-family: 'Shadows Into Light', cursive;
 }
+p.pg{
+  text-align: center;
+}
+.jumbotron{
+  background-color: yellow;
+}
+#jumbo.jumbotron{
+  background-color: turquoise;
+}
