@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?Shadows+Into+Light" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
     <title>Pig Dice</title>
@@ -17,24 +16,30 @@
     <div class="row">
       <div class="col-md-5" id="firstplayer">
         <div class="border">
-          <h2>Player One</h2> 
+          <div id="oned"></div>
+          <h2>Player One</h2>
         </div>
         <br>
         <p id="play"> Your current score is:</p>
 
       </div>
+      <br>
       <div class="col-md-1">
-        <button class="btn btn-outline-primary">Roll</button>
+        <button onclick="roll">Roll</button>
+        <div id="roll"></div>
       </div>
+      <br>
       <div class="col-md-1">
-        <button class="btn btn-outline-success">Hold</button>
+        <button onclick="hold">Hold</button>
+        <div id="hold"></div>
       </div>
       <div class="col-md-5" id="secondplayer">
         <div class="border">
+          <div id="wdw"></div>
           <h2>Player Two</h2>
         </div>
         <br>
-        <p id="player"> Your current score is:</p>  
+        <p id="player"> Your current score is:</p>
       </div>
 
     </div>
@@ -47,7 +52,7 @@
         <li>3. If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
       </ul>
     </p>
-    <div class="footer"> 
+    <div class="footer">
       <p>Copyright (c) {2019} <br> Mercy Ndambu :)</p>
     </div>
 
