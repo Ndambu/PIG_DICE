@@ -16,35 +16,34 @@
     <div class="row">
       <div class="col-md-5" id="firstplayer">
         <div class="border">
-          <div id="oned"></div>
           <h2>Player One</h2>
         </div>
         <br>
-        <p id="play"> Your current score is:</p>
+        <button id="roller" onclick="">Roll</button>
+        <button id="holder" onclick="">Hold</button>
+        <br>
+        <p id="oned"> Your score:</p>
+        <p id="total">Total:</p>
+      </div>
+      <div class="col-md-2">
+          <button id="newg" onclick="">NEW GAME</button>
+      </div>
 
-      </div>
-      <br>
-      <div class="col-md-1">
-        <button onclick="roll">Roll</button>
-        <div id="roll"></div>
-      </div>
-      <br>
-      <div class="col-md-1">
-        <button onclick="hold">Hold</button>
-        <div id="hold"></div>
-      </div>
       <div class="col-md-5" id="secondplayer">
         <div class="border">
-          <div id="wdw"></div>
           <h2>Player Two</h2>
         </div>
         <br>
-        <p id="player"> Your current score is:</p>
+        <button id="rolled" onclick="">Roll</button>
+        <button id="held" onclick="">Hold</button>
+        <br>
+        <p id="wdw"> Your score:</p>
+        <p id="total2">Total:</p>
       </div>
 
     </div>
     <br>
-    <h2 class=""><u>RULES</u></h2>
+    <h2><u>RULES</u></h2>
     <p>
       <ul>
         <li>1. If the player rolls a 1, they score nothing and it becomes the next player's turn.</li>
